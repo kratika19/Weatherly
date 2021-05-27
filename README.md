@@ -18,6 +18,6 @@ This project is a ReactJS based project which used weather api to fetch data. Wi
 
 
 Runs the app on your server at: <br>
-Open []() to view it in the browser.
+Open [https://yours-weatherly.netlify.app/](https://yours-weatherly.netlify.app/) to view it in the browser.
 
 The page will reload if you make edits. 
