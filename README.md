@@ -1,4 +1,4 @@
-# YoursWeather - Basic WebApp that gives you time and date with temp details
+# Weatherly - A Weather App
 
 This project is a ReactJS based project which used weather api to fetch data. With this website you can view temp and weather of all countries around the world. This is a fully responsive website which works both on your mobile and desktop.
 
