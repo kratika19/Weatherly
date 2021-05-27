@@ -5,7 +5,7 @@
 }
 
 body{
-  font-family: 'montseratt', sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .App{
@@ -53,4 +53,51 @@ main{
 
 .search-box .search-bar:focus{
   background-color: rgba(255,255,255,0.75);
+}
+
+.location-box .location{
+  color: white;
+  font-size:  32px;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: 3px 3px rgba(50,50,70,0.5);
+}
+
+.location-box .date{
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: italic;
+  text-align: center;
+  text-shadow: 2.5px 2.5px rgba(50,50,70,0.5);
+}
+
+.weather-box {
+  text-align: center;
+}
+
+.weather-box .temp{
+  position: relative;
+  display: inline-block;
+  margin: 30px auto;
+  background-color: rgba(255,255,255,0.2);
+  border-radius: 16px;
+
+  padding: 15px 25px;
+
+  color: white;
+  font-size: 102px;
+  font-weight: 900;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  text-shadow: 3px 6px rgba(50,50,70,0.5);
+  text-align: center;
+  box-shadow: 3px 6px rgba(0,0,0,0.2);
+}
+
+.weather-box .weather{
+  color: white;
+  font-size: 48px;
+  font-weight: 700;
+  text-shadow: 3px 3px rgba(50,50,70,0.5);
 }
