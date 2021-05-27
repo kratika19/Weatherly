@@ -9,14 +9,13 @@ body{
 }
 
 .App{
-  background-image: url('./assets/2.PNG');
+  background-image: url('./assets/A1.jpg');
   background-size: cover;
   background-position: bottom;
-  transition: 0.4 ease-out;
+  transition: 0.4s ease-out;
 }
-.App .warm{
-  background-image: url('./assets/1.PNG');
-  
+.App.warm{
+  background-image: url('./assets/A2.jpg');
 }
 
 main{
@@ -101,3 +100,40 @@ main{
   font-weight: 700;
   text-shadow: 3px 3px rgba(50,50,70,0.5);
 }
+
+/* 
+@media (max-width: 350px)
+        {
+            .App{
+                max-width: 350px;
+            }
+        }
+@media (min-width: 350px) and (max-width: 550px)
+        {
+            .App{
+              max-width: 550px;
+            }
+        }
+@media (min-width: 550px) 
+        {
+            .App{
+                background-image: url('./assets/A1.jpg');
+            }
+            .App.warm{
+              background-image: url('./assets/A2.jpg');
+            }
+        } */
+/* @media (min-width: 900px) and (max-width: 1200px)
+        {
+            #box-4{
+                display: block;
+                background-color: brown;
+            }
+        }
+@media (min-width: 1200px)
+        {
+            .box{
+                display: block;
+            }
+        } */
+
